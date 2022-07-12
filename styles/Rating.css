@@ -1,0 +1,543 @@
+body
+{	
+	background-image:url("../Images/bgnew.jpg");
+
+	background-position:center ;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+h1
+{
+	font-size:40px;
+	color:white;
+	font-family: 'Lobster', cursive;
+}
+
+h2{
+	font-size:35px;
+	color:81AF2A;
+	font-family: 'Lobster', cursive;
+	text-align: center; 
+	margin-top: 6px;
+}
+p
+{
+	font-size:20px;
+}
+
+	
+h1.topic{
+	float: left;
+	margin-left:370px;
+}
+
+
+ul.Home 
+{
+
+    display: inline-block;
+    list-style-type: none;
+	font-weight:bold;
+	margin:0;
+	padding:0px; 
+	background-color: 982631;
+	overflow:hidden;
+	float:left;
+	margin-left: 90px;
+	border-right:3px solid transparent;
+}
+
+ul.sign
+{
+
+    display: inline-block;
+	width: 1328px;
+    list-style-type: none;
+	font-weight:bold;
+	margin-right:10px;
+	margin-top: 10px;
+	background-color:white;
+	overflow:hidden;
+	float: left;
+	margin-left:10px;
+	
+}
+
+li.Home
+{
+	float:left;
+	width: 178px;
+}
+
+
+li.sign
+{
+	
+	float:right;
+	width: 90px;
+}
+
+
+
+.Home a
+{
+		
+		display:block;
+		color:white;
+		text-align:center;
+		padding:15px 35px;
+		text-decoration:none;
+		text-align:center;
+		outline-style:solid;
+}
+
+.Home a:hover {
+	background-color:gray;
+	color:white;
+}
+
+
+
+.sign a
+{
+		
+		display:block;
+		background-color:982631;
+		color:white;
+		padding:5px 10px; 
+		text-decoration:none;
+		text-align:center;
+		outline-style:solid;
+		border-left:solid;
+		border-width:5px;
+}
+.sign a:hover {
+	background-color:black;
+	color:white;
+}
+.active{
+	background-color: green;
+	color: white;
+}
+
+#feedback{
+	color:white;
+	background-color:green;
+	text-align:center;
+	font-size:15px;
+	font-family: 'Lobster', cursive;
+}
+
+.notes{
+	color:81AF2A;
+	margin-top:-60px;
+}
+.box1{
+	margin-left:200px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  background-color:982631;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px 25px;
+  margin-top:20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown:hover .dropbtn {
+  background-color: E87057;
+  color:white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: 982631;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: E87057;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color:982631;
+}
+
+
+}
+.notes{
+	color:Green;
+}
+imgg {
+	margin-left:120px;
+}
+p
+{
+	font-size:20;
+	
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+.rate1 {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate1:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate1:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate1:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate1 > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate1:not(:checked) > label:hover,
+.rate1:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate1 > input:checked + label:hover,
+.rate1 > input:checked + label:hover ~ label,
+.rate1 > input:checked ~ label:hover,
+.rate1 > input:checked ~ label:hover ~ label,
+.rate1 > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+
+speMsg{
+	margin-right:10px;
+}
+h4 {
+	font-weight:bold;
+}
+h4 {
+	background:red;
+	animation:mymove 5s infinite;
+}
+@keyframes mymove {
+	from {background-color:green;}
+	to{background-color:black;}
+}
+
+*{
+  box-sizing: border-box;
+}
+form.searchbar1 input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid grey;
+  float: center;
+  width: 32%;
+  background: #f1f1f1;
+}
+
+form.searchbar1 button {
+  float:none;
+  width: 9%;
+  padding:  10px;
+  background: green;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.searchbar1 :hover {
+  background: #0b7dda;
+}
+
+
+form.searchbar1 ::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form.searchbar2 input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid grey;
+  float: center;
+  width: 32%;
+  background: #f1f1f1;
+}
+
+form.searchbar2 button {
+  float: center;
+  width: 9%;
+  padding:  10px;
+  background: green;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.searchbar2 :hover {
+  background: #0b7dda;
+}
+
+
+form.searchbar2 ::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.container{
+	position:relative;
+	max-width: 100px;
+	margin: 0 auto;
+}
+
+.container img{
+	vertical-align: middle;
+}
+
+.container .content{
+	position:absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0); 
+	background: rgba(0, 0, 0, 0.5); 
+	color: #f1f1f1;
+	width: 140px;
+	height: 40px;
+	padding: 0px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  background-color:grey;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px 25px;
+  margin-top:20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown:hover .dropbtn {
+  background-color: green;
+  color:white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: greeen;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: 6AAF1D;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color:green;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#footer{
+    display: block;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 30px;
+    background-color:982631;
+}
+
+#innerFooter{
+    grid-column: 1/-1;
+}
+
+#copyRigth{
+    grid-column: 1/-1;
+    display: block;
+}
+
+#footer #innerFooter{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: auto;
+    grid-gap: 3px;
+    padding: 50px;
+    height: 100%;
+}
+
+#footer #innerFooter h1{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#footer #innerFooter li{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    padding: 1px 5px;
+}
+#footer #innerFooter li a{
+    color: white;
+	margin-top: 0px
+}
+
+#footer #innerFooter i{
+    color: white;
+    padding:1px 5px;
+	margin-top: 0px;
+}
+
+#footer #innerFooter #Child3 .socialMediaLinks{
+    display: block
+    padding: 5px 0px;
+}
+
+#footer #innerFooter #Child3 .socialMediaLinks ul{
+    display: flex;
+	float:right;
+	margin-right:40px;
+}
+
+#footer #innerFooter #Child3 .socialMediaLinks ul li{
+    font-size: 30px;
+}
+
+#footer #innerFooter #footerLogo #Title{
+    display: flex;
+    padding: 5px 10px 5px 10px;
+}
+
+#footer #innerFooter #footerLogo #Title h1{
+    display: block;
+    color: white;
+    font-size: 25px;
+	font-weight:bold; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#footer #innerFooter #footerLogo #Title p{
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-family: 'Rock Salt', cursive;
+    margin: 20px 10px 25px 10px;
+}
+
+#footer #copyRigth{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#f1 {
+	margin-left:15px;
+	margin-right:15px;
+}
+	
+#f2 {
+	margin-left:15px;
+	margin-right:15px;
+}

@@ -1,0 +1,391 @@
+body
+{	
+	background-image:url("../Images/bgnew.jpg");
+	height:100%;
+	width:100%;
+	
+	background-position:center ;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+h2{
+	font-size:40px;
+	color:D8F061;
+	font-family: Times New Roman Georgia;
+	margin-right:10px;
+	
+}
+
+p
+{
+	font-size:20px;
+}
+
+	
+h1.topic{
+	font-size : 50px;
+	color:white;
+	font-family: 'Lobster', cursive;
+}
+
+
+ul.Home 
+{
+
+    display: inline-block;
+    list-style-type: none;
+	font-weight:bold;
+	margin-top:-125px;
+	padding:0px; 
+	background-color: 982631;
+	overflow:hidden;
+	
+	margin-left: 90px;
+	border-right:3px solid transparent;
+}
+
+ul.sign
+{
+
+    display: inline-block;
+	width: 1328px;
+    list-style-type: none;
+	font-weight:bold;
+	margin-right:0px;
+	margin-top: -115px;
+	background-color:white;
+	overflow:hidden;
+	float: left;
+	margin-left:10px;
+	
+}
+
+li.Home
+{
+	float:left;
+	width: 178px;
+}
+
+
+li.sign
+{
+	
+	float:right;
+	width: 90px;
+}
+
+
+
+.Home a
+{
+		display:block;
+		color:white;
+		text-align:center;
+		padding:15px 35px;
+		text-decoration:none;
+		text-align:center;
+		outline-style:solid;
+}
+
+.Home a:hover {
+	background-color:E87057;
+	color:white;
+}
+
+.sign a
+{
+		
+		display:block;
+		background-color:982631;
+		color:white;
+		padding:5px 10px; 
+		text-decoration:none;
+		text-align:center;
+		outline-style:solid;
+		border-left:solid;
+		border-width:5px;
+}
+.sign a:hover {
+	background-color:black;
+	color:white;
+}
+.active{
+	background-color: green;
+	color: white;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.dropdown {
+   overflow: hidden;
+  background-color:White;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 5px 25px;
+  margin-top:20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown:hover .dropbtn {
+  background-color: green;
+  color:white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: greeen;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: 6AAF1D;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color:green;
+}
+
+*
+{
+  box-sizing: border-box;
+}
+
+
+
+/* style the container */
+.container {
+  width: 30%;
+ border-radius: 10px;
+  position: relative;
+  
+  background-color: #f2f2f2;
+  padding: 20px 5px 30px 5px;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+
+
+.lg {
+  
+  background-color: 19BD3B;
+  font-size:20px;
+  color: white;
+  width:100px;
+  float:center;
+  margin-top:50px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+.p
+{
+	font-size: 14px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#footer{
+    display: block;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 30px;
+    background-color:982631;
+}
+
+#innerFooter{
+    grid-column: 1/-1;
+}
+
+#copyRigth{
+    grid-column: 1/-1;
+    display: block;
+}
+
+#footer #innerFooter{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: auto;
+    grid-gap: 3px;
+    padding: 50px;
+    height: 100%;
+}
+
+#footer #innerFooter h1{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#footer #innerFooter li{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    padding: 1px 5px;
+}
+#footer #innerFooter li a{
+    color: white;
+	margin-top: 0px
+}
+
+#footer #innerFooter i{
+    color: white;
+    padding:1px 5px;
+	margin-top: 0px;
+}
+
+#footer #innerFooter #Child3 .socialMediaLinks{
+    display: block
+    padding: 5px 0px;
+}
+
+#footer #innerFooter #Child3 .socialMediaLinks ul{
+    display: flex;
+	float:right;
+	margin-right:40px;
+}
+
+#footer #innerFooter #Child3 .socialMediaLinks ul li{
+    font-size: 30px;
+}
+
+#footer #innerFooter #footerLogo #Title{
+    display: flex;
+    padding: 5px 10px 5px 10px;
+}
+
+#footer #innerFooter #footerLogo #Title h1{
+    display: block;
+    color: white;
+    font-size: 25px;
+	font-weight:bold; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#footer #innerFooter #footerLogo #Title p{
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-family: 'Rock Salt', cursive;
+    margin: 20px 10px 25px 10px;
+}
+
+#footer #copyRigth{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+

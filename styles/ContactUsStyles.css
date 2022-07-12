@@ -1,0 +1,295 @@
+/*Background styles*/
+body
+{	
+	background-image:url("../Images/bgnew.jpg");
+	height:100%;
+	background-position:center ;
+	background-repeat:no-repeat;
+	background-size:cover;
+	min-width: 100%;
+	max-width:100%;
+}
+
+
+
+h2{
+	font-size:35px;
+	color:81AF2A;
+	font-family: 'Lobster', cursive;
+	text-align: center; 
+	margin-top: 6px;
+}
+
+p
+{
+	font-size:20px;
+}
+
+h1.topic{
+	font-size : 45px;
+	float: left;
+	margin-top:-8px;
+	margin-left:370px;
+	color:white;
+	font-family: 'Lobster', cursive;
+}
+
+/*Navigation bar styles*/
+ul.Home 
+{
+    display: inline-block;
+    list-style-type: none;
+	font-weight:bold;
+	margin:0;
+	padding:0px; 
+	background-color: 982631;
+	overflow:hidden;
+	float:left;
+	margin-left: 90px;
+	border-right:3px solid transparent;
+}
+
+/*Sign up and login styles*/
+ul.sign
+{
+    display: inline-block;
+	width: 98%;
+	max-width:98%;
+	min-width:98%;
+    list-style-type: none;
+	font-weight:bold;
+	margin-right:10px;
+	margin-top: 10px;
+	background-color:white;
+	overflow:hidden;
+	float: left;
+	margin-left:10px;
+}
+
+li.Home
+{
+	float:left;
+	width: 178px;
+}
+
+li.sign
+{
+	float:right;
+	width: 90px;
+}
+
+.Home a
+{
+		display:block;
+		color:white;
+		text-align:center;
+		padding:15px 35px;
+		text-decoration:none;
+		text-align:center;
+		outline-style:solid;
+}
+
+.Home a:hover {
+	background-color:E87057;
+	color:white;
+}
+
+.sign a
+{
+	display:block;
+	background-color:982631;
+	color:white;
+	padding:5px 10px; 
+	text-decoration:none;
+	text-align:center;
+	outline-style:solid;
+	border-left:solid;
+	border-width:5px;
+}
+
+.sign a:hover {
+	background-color:E87057;
+	color:white;
+}
+
+.active{
+	background-color: green;
+	color: white;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/*Form styles*/
+.contactForm
+{
+  padding: 0px 8px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  border: 1.5px solid grey;
+  float: left;
+  margin-left:210px;
+  background: white;
+  resize: none; 
+  overflow: hidden;
+}
+
+::placeholder
+{
+  color:black;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*Adds new lines when this button is clicked*/
+.btnAddLines
+{
+  float: left;
+  margin-left:20px;		
+  background-color: #DCDCDC; 
+  text-decoration: none; 
+  padding: 5px 20px 5px 20px; 
+  border-radius: 8px; 
+  color: #000000; 
+  font-size: 16px; 
+  font-weight:bold;
+}
+
+.fieldset
+{
+  border:none;
+}
+
+/*Erases all the information filled in the form*/
+.reset
+{
+  background-color: 81AF2A; 
+  text-decoration: none; 
+  border-radius: 2px; 
+  border-color: 81AF2A; 
+  color: white; 
+  font-size: 20px;
+  float:center;
+}
+
+/*Subject dropdown list*/
+.selectSubject
+{
+  padding: 0px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  border: 1.5px solid grey;
+  float: left;
+  margin-left:50px;
+  background: white;
+  resize: none; 
+  overflow: hidden;
+  width: 300px; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+/*footer styles*/
+#footer{
+    display: block;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 30px;
+    background-color:982631;
+}
+
+#innerFooter{
+    grid-column: 1/-1;
+}
+
+#copyRigth{
+    grid-column: 1/-1;
+    display: block;
+}
+
+#footer #innerFooter{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: auto;
+    grid-gap: 3px;
+    padding: 50px;
+    height: 100%;
+}
+
+#footer #innerFooter h1{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#footer #innerFooter li{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    padding: 1px 5px;
+}
+#footer #innerFooter li a{
+    color: white;
+	margin-top: 0px
+}
+
+#footer #innerFooter i{
+    color: white;
+    padding:1px 5px;
+	margin-top: 0px;
+}
+
+#footer #innerFooter #Child3 .socialMediaLinks{
+    display: block
+    padding: 5px 0px;
+}
+
+#footer #innerFooter #Child3 .socialMediaLinks ul{
+    display: flex;
+	float:right;
+	margin-right:40px;
+}
+
+#footer #innerFooter #Child3 .socialMediaLinks ul li{
+    font-size: 30px;
+}
+
+#footer #innerFooter #footerLogo #Title{
+    display: flex;
+    padding: 5px 10px 5px 10px;
+}
+
+#footer #innerFooter #footerLogo #Title h1{
+    display: block;
+    color: white;
+    font-size: 25px;
+	font-weight:bold; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#footer #innerFooter #footerLogo #Title p{
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-family: 'Rock Salt', cursive;
+    margin: 20px 10px 25px 10px;
+}
+
+#footer #copyRigth{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+

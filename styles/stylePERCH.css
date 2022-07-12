@@ -1,0 +1,553 @@
+body
+{	
+	background-image:url("../Images/bgnew.jpg");
+	width:100%;
+	background-position:center ;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+	
+
+
+h2{
+	font-size:35px;
+	color:81AF2A;
+	font-family: 'Lobster', cursive;
+	text-align: center; 
+	margin-top: 6px;
+}
+p
+{
+	font-size:20px;
+}
+
+	
+h1.topic{
+	font-size : 45px;
+	float: left;
+	margin-top:-53px;
+	margin-left:370px;
+	color:white;
+	font-family: 'Lobster', cursive;
+}
+
+
+ul.Home 
+{
+
+    display: inline-block;
+    list-style-type: none;
+	font-weight:bold;
+	margin-top:-125px;
+	padding:0px; 
+	background-color: 982631;
+	overflow:hidden;
+	float:left;
+	margin-left: 90px;
+	border-right:3px solid transparent;
+}
+
+ul.sign
+{
+
+    display: inline-block;
+	width: 100%;
+    list-style-type: none;
+	font-weight:bold;
+	margin-right:0px;
+	margin-top: -115px;
+	background-color:white;
+	overflow:hidden;
+	float: left;
+	margin-left:10px;
+	
+}
+
+li.Home
+{
+	float:left;
+	width: 178px;
+}
+
+
+li.sign
+{
+	
+	float:right;
+	width: 90px;
+}
+
+
+
+.Home a
+{
+		display:block;
+		color:white;
+		text-align:center;
+		padding:15px 35px;
+		text-decoration:none;
+		text-align:center;
+		outline-style:solid;
+}
+
+.Home a:hover {
+	background-color:E87057;
+	color:white;
+}
+
+
+
+.sign a
+{
+		
+		display:block;
+		background-color:982631;
+		color:white;
+		padding:5px 10px; 
+		text-decoration:none;
+		text-align:center;
+		outline-style:solid;
+		border-left:solid;
+		border-width:5px;
+}
+.sign a:hover {
+	background-color:black;
+	color:white;
+}
+.active{
+	background-color: green;
+	color: white;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  background-color:982631;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px 25px;
+  margin-top:20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown:hover .dropbtn {
+  background-color: E87057;
+  color:white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: 982631;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: E87057;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color:982631;
+}
+
+form.searchbar1 input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid grey;
+  float: center;
+  width: 32%;
+  background: #f1f1f1;
+}
+
+form.searchbar1 button {
+  float:none;
+  width: 9%;
+  padding:  10px;
+  background: green;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.searchbar1 :hover {
+  background: #0b7dda;
+}
+
+
+form.searchbar1 ::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form.searchbar2 input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid grey;
+  float: center;
+  width: 32%;
+  background: #f1f1f1;
+}
+
+form.searchbar2 button {
+  float: center;
+  width: 9%;
+  padding:  10px;
+  background: green;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.searchbar2 :hover {
+  background: #0b7dda;
+}
+
+
+form.searchbar2 ::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+form.emailbar input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid grey;
+  float: center;
+  width: 32%;
+  background: #f1f1f1;
+}
+
+div.div1 {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#footer{
+    display: block;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 30px;
+    background-color:982631;
+}
+
+#innerFooter{
+    grid-column: 1/-1;
+}
+
+#copyRigth{
+    grid-column: 1/-1;
+    display: block;
+}
+
+#footer #innerFooter{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: auto;
+    grid-gap: 3px;
+    padding: 50px;
+    height: 100%;
+}
+
+#footer #innerFooter h1{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#footer #innerFooter li{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    padding: 1px 5px;
+}
+#footer #innerFooter li a{
+    color: white;
+	margin-top: 0px
+}
+
+#footer #innerFooter i{
+    color: white;
+    padding:1px 5px;
+	margin-top: 0px;
+}
+
+#footer #innerFooter #Child3 .socialMediaLinks{
+    display: block
+    padding: 5px 0px;
+}
+
+#footer #innerFooter #Child3 .socialMediaLinks ul{
+    display: flex;
+	float:right;
+	margin-right:40px;
+}
+
+#footer #innerFooter #Child3 .socialMediaLinks ul li{
+    font-size: 30px;
+}
+
+#footer #innerFooter #footerLogo #Title{
+    display: flex;
+    padding: 5px 10px 5px 10px;
+}
+
+#footer #innerFooter #footerLogo #Title h1{
+    display: block;
+    color: white;
+    font-size: 25px;
+	font-weight:bold; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#footer #innerFooter #footerLogo #Title p{
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-family: 'Rock Salt', cursive;
+    margin: 20px 10px 25px 10px;
+}
+
+#footer #copyRigth{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.image1
+{
+	float:left;
+	height:200px;
+	width:200px;
+	margin-top: 28px;
+	margin-left:28px;
+	border-style: solid;
+}
+
+.txt1
+{
+	width:850;
+	height:200;
+	border-color: 000204;
+    border-style: solid;
+    border-width: 2px;
+    padding: 30px;
+    margin-top: 28px;
+    /* Text style */
+    font-family: Times-Italic;
+    font-size: 19px;
+    color: #717171;
+    line-height: 27px;
+    text-align: left;
+	resize: none;
+	opacity:0.7;
+	
+    
+}
+
+.button1
+{
+		background-color:orange;
+		width:160px;
+		display:inline-block;
+		color:white;
+		text-align:center;
+		padding:15px 35px;
+		text-decoration:none;
+		text-align:center;
+		outline-style:solid;
+		outline-color:	#FFFFFF;
+		border:20px;
+}
+
+.button1:hover {
+	background-color:gray;
+	color:white;
+}
+
+.button1:active {
+	background-color: gray;
+	color:white;
+}
+
+
+
+
+.button2
+{
+		background-color:orange;
+		width:160px;
+		display:inline-block;
+		color:white;
+		text-align:center;
+		padding:15px 35px;
+		text-decoration:none;
+		text-align:center;
+		outline-style:solid;
+		outline-color:	#FFFFFF;
+		border:20px;
+}
+
+.button2:hover {
+	background-color:gray;
+	color:white;
+}
+
+.button2:active {
+	background-color: gray;
+	color:white;
+}
+
+.button3
+{
+		background-color:orange;
+		width:160px;
+		display:inline-block;
+		color:white;
+		text-align:center;
+		padding:15px 35px;
+		text-decoration:none;
+		text-align:center;
+		outline-style:solid;
+		outline-color:	#FFFFFF;
+		border:20px;
+}
+
+.button3:hover {
+	background-color:gray;
+	color:white;
+}
+
+.button3:active {
+	background-color: gray;
+	color:white;
+}
+
+.button4
+{
+		background-color:orange;
+		width:160px;
+		display:inline-block;
+		color:white;
+		text-align:center;
+		padding:15px 35px;
+		text-decoration:none;
+		text-align:center;
+		outline-style:solid;
+		outline-color:	#FFFFFF;
+		border:20px;
+}
+
+.button4:hover {
+	background-color:gray;
+	color:white;
+}
+
+.button4:active {
+	background-color: gray;
+	color:white;
+}
+
+.buttonB
+{
+		background-color:orange;
+		width:160px;
+		display:inline-block;
+		color:white;
+		text-align:center;
+		padding:15px 35px;
+		text-decoration:none;
+		text-align:center;
+		outline-style:solid;
+		outline-color:	#FFFFFF;
+		border:20px;
+}
+
+.buttonB:hover {
+	background-color:gray;
+	color:white;
+}
+
+.buttonB:active {
+	background-color: gray;
+	color:white;
+}
+
+#para5
+{
+	font-size:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#para6
+{
+	font-size:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#para7
+{
+	font-size:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#para8
+{
+	font-size:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#para9
+{
+	font-size:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.hrz
+{
+	color:white;
+	margin-left:28px;
+	margin-right:28px;
+}
